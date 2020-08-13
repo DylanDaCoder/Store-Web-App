@@ -1,0 +1,161 @@
+/*-------- Navigation Bar -------*/
+#navigation {
+    
+    
+    background-color: #121519;
+    
+    padding: 10px;
+    margin-bottom: 10px;
+}
+#navigation a{
+    color: whitesmoke;
+    text-decoration: none;
+    font-family: fantasy;
+    font-size: 25px;
+    
+    padding-left: 10px;
+    padding-right: 50px
+        
+}
+#navigation a:hover{
+    color: #0f97db;
+}
+    
+#home_products {
+    padding: 10px;
+    
+}
+/*-------- Background Image --------*/
+body {
+    background:url(img/blue.png) fixed center;
+    background-image: url(img/blue.png);
+    background-attachment: fixed;
+    background-position: center;
+    
+}
+
+/*------- PRODUCT BEGIN -------*/
+#header {
+    background-color: black;
+}
+#header h1 {
+   text-align: center;
+   font-size: 50px;
+    color: aliceblue;
+    font-family: monospace;
+    
+    
+}
+.details {
+    background-color: #080a0c;
+    margin-right: 0;
+}
+.details p {
+    color: whitesmoke;
+    font-size: 18px;
+    font-family: monospace;
+}
+
+table {
+    background-color: #080a0c;
+}
+table th {
+    color: cornflowerblue;
+    font-family: monospace;
+    padding: 5px;
+    font-size: 15px;
+    text-align: center;
+}
+
+table td {
+    color: whitesmoke;
+    font-family: monospace;
+    text-align: left;
+}
+.sub_header {
+    background-color: black;
+}
+.sub_header h3 {
+    font-size: 20px;
+    font-family: monospace;
+    color: antiquewhite;
+    text-align: center;
+}
+/*----- PRODUCT  END ------*/
+
+
+
+.gallery img {
+    width: 19%;
+    height: 180px;
+    
+}
+
+h4 {
+    background-color: black;
+    text-align: center;
+    font-family: monospace;
+    font-size: 20px;
+    color: floralwhite;
+}
+h4 a {
+    text-decoration: none;
+    color: red;
+}
+h4 a:hover {
+    color: orange;
+}
+p {
+     background-color: black;
+    color: whitesmoke;
+    font-family: monospace;
+    font-size: 18px;
+}
+p a {
+    background-color: black;
+    color: red;
+    font-family: monospace;
+    font-size: 18px;
+    text-decoration: none;
+        
+}
+p a:hover {
+    color: orange;
+}
+
+h2 {
+    background-color: black;
+    color: aliceblue;
+    text-decoration: none;
+}
+
+h2 a{
+    text-decoration: none;
+    color: aquamarine;
+}
+h2 a:hover {
+    color: lightblue;
+}
+.contact h2{
+    font-family: monospace;
+    font-size: 50px;
+    text-align: center;
+}
+.button {
+    text-align: center;
+}
+.button button {
+   background-color: cornflowerblue;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+text-align: center;
+}
+.button button:hover {
+    background-color: aqua;
+    color: white;
+}
